@@ -15,9 +15,9 @@ int main()
     int factorial = 0;
     int opcion = 0;
 
-    while(seguir=='s')
+    while(seguir == 's')
     {
-        printf("1- Ingresar 1er operando (A=%d)\n", numero1);
+        printf("1- Ingresar 1er operando (A= %d)\n", numero1);
         printf("2- Ingresar 2do operando (B=%d)\n", numero2);
         printf("3- Calcular la suma (A+B)\n");
         printf("4- Calcular la resta (A-B)\n");
