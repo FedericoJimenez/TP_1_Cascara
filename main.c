@@ -6,19 +6,19 @@ int main()
 {
     //Declaracion de variables
     char seguir = 's';
-    int numero1= 0;
-    int numero2 = 0;
-    int suma = 0;
-    int resta = 0;
-    int multiplicacion = 0;
-    int division = 0;
+    float numero1= 0;
+    float numero2 = 0;
+    float suma = 0;
+    float resta = 0;
+    float multiplicacion = 0;
+    float division = 0;
     int factorial = 0;
     int opcion = 0;
 
     while(seguir == 's')
     {
-        printf("1- Ingresar 1er operando (A= %d)\n", numero1);
-        printf("2- Ingresar 2do operando (B=%d)\n", numero2);
+        printf("1- Ingresar 1er operando (A = %f)\n", numero1);
+        printf("2- Ingresar 2do operando (B = %f)\n", numero2);
         printf("3- Calcular la suma (A+B)\n");
         printf("4- Calcular la resta (A-B)\n");
         printf("5- Calcular la division (A/B)\n");
@@ -54,7 +54,7 @@ int main()
                 if (factorial == 0){
                     printf("\n ERROR: no se puede realizar el factorial de un numero negativo\n");
                 }else{
-                    printf("\n El factorial de %d es igual a %d\n", numero1, factorial);
+                    printf("\n El factorial de %f es igual a %f\n", numero1, factorial);
                 }
                 break;
             case 8:
@@ -66,7 +66,7 @@ int main()
                 if (factorial == 0){
                     printf("\n ERROR: no se puede realizar el factorial de un numero negativo\n");
                 }else{
-                    printf("\n El factorial de %d es igual a %d\n", numero1, factorial);
+                    printf("\n El factorial de %f es igual a %f\n", numero1, factorial);
                 }
                 break;
             case 9:
